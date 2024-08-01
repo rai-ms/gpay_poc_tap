@@ -1,4 +1,4 @@
-package company.tap.google.kit
+package com.example.gpay_integeration_poc
 
 import android.annotation.SuppressLint
 import android.content.Context

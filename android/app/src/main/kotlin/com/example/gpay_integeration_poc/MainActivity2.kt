@@ -11,8 +11,7 @@ import android.view.View
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
-import company.tap.google.kit.SettingsActivity
-import company.tap.google.kit.SettingsManager
+
 import company.tap.google.pay.internal.api.responses.Token
 import company.tap.google.pay.open.SDKDelegate
 import company.tap.google.pay.open.DataConfiguration
