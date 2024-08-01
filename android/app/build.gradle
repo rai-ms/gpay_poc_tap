@@ -58,6 +58,10 @@ flutter {
 }
 
 dependencies{
+    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation project(':tapgooglepay')
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation 'androidx.preference:preference-ktx:1.2.1'
 //    implementation "com.google.android.gms:play-services-wallet:19.4.0"
 //    implementation project(path: ':tapgooglepay')
 }

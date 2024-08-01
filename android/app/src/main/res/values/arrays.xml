@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string-array name="pref_array_country_code_value" tools:ignore="ExtraTranslation">
+        <item>US</item>
+        <item>AE</item>
+    </string-array>
+    <string-array name="pref_array_country_code_entries">
+        <item>US</item>
+        <item>AE</item>
+
+    </string-array>
+
+
+    <string-array name="pref_array_currency_code_entries">
+        <item>USD</item>
+        <item>AED</item>
+        <item>KWD</item>
+    </string-array>
+
+    <string-array name="pref_array_currency_code_values">
+        <item>USD</item>
+        <item>AED</item>
+        <item>KWD</item>
+    </string-array>
+
+    <string-array name="pref_array_sdk_payment_network_entries">
+        <item>AMEX,VISA, MASTER CARD</item>
+        <item>Authorize</item>
+        <item>SaveCards</item>
+        <item>TokenizeCards</item>
+    </string-array>
+
+    <string-array name="pref_array_sdk_payment_network_values">
+        <item>PURCHASE</item>
+        <item>AUTHORIZE_CAPTURE</item>
+        <item>SAVE_CARD</item>
+        <item>TOKENIZE_CARD</item>
+    </string-array>
+
+
+    <string-array name="pref_array_sdk_transactions_currency_entries">
+        <item>AED</item>
+        <item>BHD</item>
+        <item>EGP</item>
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>KWD</item>
+        <item>OMR</item>
+        <item>QR</item>
+        <item>SR</item>
+        <item>USD</item>
+    </string-array>
+
+    <string-array name="pref_array_sdk_transaction_currency_values">
+        <item>aed</item>
+        <item>bhd</item>
+        <item>egp</item>
+        <item>eur</item>
+        <item>gbp</item>
+        <item>kwd</item>
+        <item>omr</item>
+        <item>qar</item>
+        <item>sar</item>
+        <item>usd</item>
+    </string-array>
+
+
+    <string-array name="pref_array_sdk_paymentTypes">
+        <item>ALL</item>
+        <item>WEB</item>
+        <item>CARD</item>
+    </string-array>
+
+    <string-array name="pref_array_sdk_paymentTypes_values">
+        <item>ALL</item>
+        <item>WEB</item>
+        <item>CARD</item>
+    </string-array>
+
+    <string-array name="pref_array_sdk_networks">
+        <item>AMEX</item>
+        <item>VISA</item>
+        <item>MASTERCARD</item>
+        <item>JCB</item>
+        <item>DISCOVER</item>
+    </string-array>
+
+    <string-array name="pref_array_sdk_networks_values">
+        <item>AMEX</item>
+        <item>VISA</item>
+        <item>MASTERCARD</item>
+        <item>JCB</item>
+        <item>DISCOVER</item>
+    </string-array>
+
+    <string-array name="pref_auth_entries">
+        <item>ALL</item>
+        <item>PAN_ONLY</item>
+        <item>CRYPTOGRAM_3DS</item>
+    </string-array>
+
+    <string-array name="pref_array_auth_value">
+        <item>ALL</item>
+        <item>PAN_ONLY</item>
+        <item>CRYPTOGRAM_3DS</item>
+    </string-array>
+    <string-array name="pref_array_sdk_mode_entries">
+        <item>TEST ENVIRONMENT</item>
+        <item>PRODUCTION ENVIRONMENT</item>
+    </string-array>
+
+    <string-array name="pref_array_sdk_mode_values">
+        <item>TEST ENVIRONMENT</item>
+        <item>PRODUCTION ENVIRONMENT</item>
+    </string-array>
+
+    <string-array name="pref_array_button_type_entries">
+        <item>BUY_WITH_GOOGLE_PAY</item>
+        <item>DONATE_WITH_GOOGLE_PAY</item>
+        <item>NORMAL_GOOGLE_PAY</item>
+        <item>PAY_WITH_GOOGLE_PAY</item>
+        <item>SUBSCRIBE_WITH_GOOGLE_PAY</item>
+        <item>CHECKOUT_WITH_GOOGLE_PAY</item>
+        <item>ORDER_WITH_GOOGLE_PAY</item>
+        <item>BOOK_WITH_GOOGLE_PAY</item>
+    </string-array>
+
+    <string-array name="pref_array_button_type_value">
+        <item>BUY_WITH_GOOGLE_PAY</item>
+        <item>DONATE_WITH_GOOGLE_PAY</item>
+        <item>NORMAL_GOOGLE_PAY</item>
+        <item>PAY_WITH_GOOGLE_PAY</item>
+        <item>SUBSCRIBE_WITH_GOOGLE_PAY</item>
+        <item>CHECKOUT_WITH_GOOGLE_PAY</item>
+        <item>ORDER_WITH_GOOGLE_PAY</item>
+        <item>BOOK_WITH_GOOGLE_PAY</item>
+    </string-array>
+
+    <string-array name="pref_array_token_entries">
+        <item>GET GOOGLEPAY TOKEN</item>
+        <item>GET TAP TOKEN</item>
+    </string-array>
+
+    <string-array name="pref_array_token_values">
+        <item>GET GOOGLEPAY TOKEN</item>
+        <item>GET TAP TOKEN</item>
+    </string-array>
+</resources>

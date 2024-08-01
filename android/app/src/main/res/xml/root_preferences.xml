@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="MissingDefaultResource">
+    <PreferenceCategory android:title="Transaction Data Attributes">
+
+        <ListPreference
+            android:defaultValue="TEST ENVIRONMENT"
+            android:dialogTitle="Select sdk mode"
+            android:entries="@array/pref_array_sdk_mode_entries"
+            android:entryValues="@array/pref_array_sdk_mode_values"
+            android:key="key_sdkmode"
+            android:summary="Select SDK Mode"
+            android:title="SDK Mode" />
+        <ListPreference
+            android:defaultValue="US"
+            android:dialogTitle="Select Country Code"
+            android:entries="@array/pref_array_country_code_value"
+            android:entryValues="@array/pref_array_country_code_entries"
+            android:key="country_code_key"
+            android:summary="Choose your preferred country"
+            android:title="Country Prefered"/>
+
+        <ListPreference
+            android:defaultValue="USD"
+            android:dialogTitle="Select Currency Code"
+            android:entries="@array/pref_array_currency_code_entries"
+            android:entryValues="@array/pref_array_currency_code_values"
+            android:key="key_currency_code"
+            android:summary="Select Currency Code"
+            android:title="Currency prefered" />
+
+        <ListPreference
+            android:defaultValue="ALL"
+            android:dialogTitle="Select AllowedCardAuthMethods"
+            android:entries="@array/pref_array_auth_value"
+            android:entryValues="@array/pref_auth_entries"
+            android:key="allowed_card_auth_key"
+            android:summary="Choose your preferred AuthMethod"
+            android:title="AuthMethod Prefered"/>
+
+        <MultiSelectListPreference
+            android:dialogTitle="Select Payment Networks"
+            android:key="key_payment_networks"
+            android:summary="Select Your card networks"
+            android:title="Payment Networks"
+            android:entries="@array/pref_array_sdk_networks"
+            android:entryValues="@array/pref_array_sdk_networks_values"
+
+            />
+    </PreferenceCategory>
+    <EditTextPreference
+        android:defaultValue="23.00"
+        android:inputType="numberDecimal"
+        android:digits="0123456789."
+        android:key="key_amount_name"
+        android:summary="key_amount_value"
+        android:title="Enter the amount" />
+
+    <EditTextPreference
+        android:defaultValue="company.tap.goSellSDKExample"
+        android:inputType="text"
+        android:key="key_package_name"
+        android:summary="key_package_value"
+        android:title="Enter the package ID" />
+    <EditTextPreference
+        android:defaultValue="sk_test_kovrMB0mupFJXfNZWx6Etg5y"
+        android:inputType="text"
+        android:key="key_test_name"
+        android:summary="key_test_value"
+        android:title="Enter the  Key" />
+
+    <EditTextPreference
+        android:defaultValue="1124340"
+        android:inputType="text"
+        android:key="key_merchant_id"
+        android:summary="key_merchant_id_value"
+        android:title="Enter the Merchant Id" />
+
+ <PreferenceCategory android:title="GooglePay Button Type">
+
+        <ListPreference
+            android:defaultValue="NORMAL_GOOGLE_PAY"
+            android:dialogTitle="Button Type"
+            android:entries="@array/pref_array_button_type_value"
+            android:entryValues="@array/pref_array_button_type_entries"
+            android:key="button_type_key"
+            android:summary="Choose your preferred GPAY Button"
+            android:title="GPAY Button Prefered"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Testing Preference">
+
+        <ListPreference
+            android:defaultValue="GET GOOGLEPAY TOKEN"
+            android:dialogTitle="Token type"
+            android:entries="@array/pref_array_token_values"
+            android:entryValues="@array/pref_array_token_entries"
+            android:key="token_type_key"
+            android:summary="Choose your preferred Token Type"
+            android:title="Tokenization Type Prefered"/>
+    </PreferenceCategory>
+</PreferenceScreen>
