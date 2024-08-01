@@ -164,9 +164,18 @@ class MyApp extends StatelessWidget {
           title: const Text('Flutter to Android Example'),
         ),
         body: Center(
-          child: ElevatedButton(
-            onPressed: _openMainActivity,
-            child: const Text('Open MainActivity'),
+          child: Column(
+            children: [
+              ElevatedButton(
+                onPressed: _openSettingsActivity,
+                child: const Text('Open MainActivity'),
+              ),
+              const SizedBox(height: 30,),
+              ElevatedButton(
+                onPressed: _openMainActivity,
+                child: const Text('Open MainActivity'),
+              ),
+            ],
           ),
         ),
       ),
@@ -176,6 +185,14 @@ class MyApp extends StatelessWidget {
   Future<void> _openMainActivity() async {
     try {
       await platform.invokeMethod('openMainActivity');
+    } on PlatformException catch (e) {
+      debugPrint("Failed to open MainActivity: '${e.message}'.");
+    }
+  }
+
+  Future<void> _openSettingsActivity() async {
+    try {
+      await platform.invokeMethod('openSettingsActivity');
     } on PlatformException catch (e) {
       debugPrint("Failed to open MainActivity: '${e.message}'.");
     }
