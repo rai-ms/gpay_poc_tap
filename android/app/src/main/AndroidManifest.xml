@@ -21,7 +21,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity2" android:theme="@style/AppCompatTheme"/>
-        <activity android:name=".SettingsActivity"/>
+        <activity android:name=".SettingsActivity" android:theme="@style/AppCompatTheme"/>
         <meta-data
             android:name="flutterEmbedding"
             android:value="2"/>

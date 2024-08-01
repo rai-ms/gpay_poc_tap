@@ -19,7 +19,7 @@ class MainActivity: FlutterActivity() {
                 openMainActivity()
                 result.success(null)
             } else if (call.method == "openSettingsActivity") {
-                openMainActivity()
+                openSettingsActivity()
                 result.success(null)
             }
             else {
@@ -32,4 +32,9 @@ class MainActivity: FlutterActivity() {
         val intent = Intent(this, MainActivity2::class.java)
         startActivity(intent)
     }
+    private fun openSettingsActivity() {
+        val intent = Intent(this, SettingsActivity::class.java)
+        startActivity(intent)
+    }
+
 }
